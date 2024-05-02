@@ -60,5 +60,11 @@ public class FacturaTelefonica {
     public double obtenerValorFactura() {
         return valorFactura;
     }
-
+    
+    public String toString() {
+        String cadena = String.format("Numero de telefono: %s\nMinutos del mes: %s\n"
+                + "Valor minutos: %s\nValor de la factura: %s\n", obtenerNumeroTelefono(),
+                obtenerMinutosMes(), obtenerValorMinuto(), obtenerValorFactura());
+        return cadena;
+    }
 }
