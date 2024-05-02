@@ -22,7 +22,7 @@ public class Hospital {
     */
     
     
-    public Hospital(){
+    public Hospital(String m, String l, int mil, int tMil){
         nombre = "na";
         ciudad = "ciu";
         numeroDoctores = 100;
